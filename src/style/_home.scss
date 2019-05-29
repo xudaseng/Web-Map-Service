@@ -1,0 +1,169 @@
+// style file of Home.tsx
+@import '_common-style.scss';
+
+.content{
+    padding: 0 !important;
+    // toolbar container on the top
+    &_tool{
+        display: flex;
+        flex-direction: row;
+        padding: $bound_padding_tb;
+        .button{
+            font-family:"Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        }
+        &_search{
+            flex:1;
+            margin-left: $bound_padding
+        }
+        &_radio{
+            flex: 0 0 $ratio_width;
+            margin: 0 0 0 $bound_padding;
+        }
+        &_select{
+            margin-left: -($bound_padding/2);
+        }
+    }
+    .main_container{
+        padding: $bound_padding_tb;
+        height: 100%;
+        background-color: $white;
+        // sider condition selector container 
+        &_sider{
+            background-color: $white;
+            border-right: $border_right;
+            &_icon,&_title{
+                width: 100%;
+                height: 40px;
+                padding-left: $bound_padding;
+                display: flex;
+                align-items: center;
+                .title{
+                    margin-left: $bound_padding * 0.5;
+                    font-weight: bold;
+                }
+            }
+            &_title{
+                padding-right: $bound_padding;
+                input{
+                    color: $dark_grey_black;
+                }
+            }
+            &_map{
+                width: 270px;
+                height: 240px;
+                margin: $bound_padding;
+                background-color: rgba(0,0,0,0.05);
+            }
+            &_menu{
+                border:none !important;
+                .ant-menu-submenu-title{
+                    padding-left: $bound_padding !important;
+                }
+                li.ant-menu-item{
+                    padding-left: 2 * $bound_padding !important;
+                }
+                &_item{
+                    span{
+                        margin-left: 0 !important;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        // data list container
+        &_content{
+            padding: $bound_padding_lr;
+            position: relative;
+        }
+    }
+}
+
+// style for DataSearch component
+.main_container_content_statis,.main_container_content_imglist_statis{
+    display: flex;
+    align-items: flex-end;
+    &_value{
+        padding-right: $bound_padding;
+    }
+    span{
+        padding-bottom: 5px;
+    }
+}
+.main_container_content_list{
+    &_item{
+        line-height: $header_font_size;
+        .title{
+            text-decoration: none;
+            font-weight: bold;
+            color: $dark_grey_black;
+        }
+        .title:hover{
+            text-decoration: underline;
+        }
+        .rank{
+            margin-left: $bound_padding;
+            font-size: $nav_font_size !important;
+        }
+        u{
+            margin-left:  $bound_padding * 0.5;
+        }
+        span{
+            word-wrap:break-word;
+            word-break:break-all;
+        }
+        .icon{
+            margin-right:  $bound_padding * 0.5;
+        }
+        .span{
+            margin-left: $bound_padding;
+        }
+    }
+}
+
+// style for layerSearch component
+.main_container_content_imglist{
+    background: $white;
+}
+
+// style for the service detailed info page
+._info{
+    font-size: $nav_font_size;
+    header{
+        margin-top: $bound_padding;
+        a{
+            margin-left: $bound_padding * 0.5;
+        }
+    }
+    &_container{
+        background-color: $white;
+        margin-top: $bound_padding;
+        padding: $bound_padding;
+        &_header{
+            font-size: $nav_font_size + 5px;
+        }
+        &_section{
+            margin-bottom: $bound_padding;
+            &_header{
+                font-size: $nav_font_size;
+            }
+            &_content{
+                margin-top: $bound_padding;
+                .icon{
+                    margin-right:  $bound_padding * 0.5;
+                }
+                .span{
+                    margin-left: $bound_padding;
+                }
+                span,p{
+                    word-wrap:break-word;
+                    word-break:break-all;
+                }
+                p{
+                    padding: 0;
+                    margin-top: $bound_padding;
+                    margin-bottom:0;
+                }
+            }
+        }
+    }
+}

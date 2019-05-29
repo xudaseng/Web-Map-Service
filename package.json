@@ -1,0 +1,41 @@
+{
+  "name": "ogc_wms_discovery_portal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "echarts": "^4.2.1",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts-ts": "3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/echarts": "^4.1.9",
+    "@types/jest": "^23.3.10",
+    "@types/leaflet": "^1.4.3",
+    "@types/leaflet-draw": "^0.4.13",
+    "@types/node": "^10.12.17",
+    "@types/qs": "^6.5.1",
+    "@types/react": "^16.7.17",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-router-dom": "^4.3.1",
+    "antd": "^3.11.2",
+    "css-loader": "^2.0.1",
+    "echarts": "^4.2.1",
+    "leaflet": "^1.4.0",
+    "leaflet-draw": "^1.0.4",
+    "node-sass": "^4.11.0",
+    "qs": "^6.6.0",
+    "react-router-dom": "^4.3.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2"
+  }
+}

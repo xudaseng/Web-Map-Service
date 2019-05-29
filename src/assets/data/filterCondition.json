@@ -1,0 +1,72 @@
+[
+        {
+            "name" : "Topic",
+            "icon" : "user",
+            "children" : [
+                { "name" : "Agriculture", "count" : 0 },
+                { "name" : "Biodiversity", "count" : 0 },
+                { "name" : "Climate", "count" : 0 },
+                { "name" : "Disaster", "count" : 0 },
+                { "name" : "Ecosystem", "count" : 0 },
+                { "name" : "Energy", "count" : 0 },
+                { "name" : "Geology", "count" : 0 },
+                { "name" : "Health", "count" : 0 },
+                { "name" : "Water", "count" : 0 },
+                { "name" : "Weather", "count" : 0 }
+            ]
+        },{
+            "name" : "Organization Type",
+            "icon" : "tag",
+            "children" : [
+                { "name" : "Survey", "count" : 0},
+                { "name" : "University", "count" : 0 },
+                { "name" : "Organization", "count" : 0 },
+                { "name" : "Department", "count" : 0 },
+                { "name" : "Program", "count" : 0 }
+            ]
+        },{
+            "name" : "Public Organization",
+            "icon" : "laptop",
+            "children" : [
+                { "name" : "Earth Data Analysis Center", "count" : 0},
+                { "name" : "NOAA", "count" : 0 },
+                { "name" : "miso", "count" : 0 },
+                { "name" : "FAO", "count" : 0 },
+                { "name" : "NCEI", "count" : 0 },
+                { "name" : "Arizona Geological Survey", "count" : 0 },
+                { "name" : "U.S. Geological Survey", "count" : 0 },
+                { "name" : "Amt Unterspreewald", "count" : 0},
+                { "name" : "Illinois State Geological Survey", "count" : 0 },
+                { "name" : "Partenariat GeoBretagne", "count" : 0 },
+                { "name" : "National Centers for Environmental Information", "count" : 0 },
+                { "name" : "Gemeinde Kloster Lehnin", "count" : 0 },
+                { "name" : "Kansas Biological Survey", "count" : 0 },
+                { "name" : "AIV", "count" : 0 },
+                { "name" : "LGB", "count" : 0},
+                { "name" : "Amt Spreenhagen", "count" : 0 },
+                { "name" : "PIGMA", "count" : 0 },
+                { "name" : "Gemeinde Hoppegarten", "count" : 0 },
+                { "name" : "PDOK", "count" : 0 },
+                { "name" : "University of Hawaii", "count" : 0 },
+                { "name" : "Province of British Columbia", "count" : 0 },
+                { "name" : "Centre for Ecology & Hydrology", "count" : 0},
+                { "name" : "EROS", "count" : 0 },
+                { "name" : "MAGRAMA", "count" : 0 },
+                { "name" : "USGS", "count" : 0 },
+                { "name" : "NASA", "count" : 0 },
+                { "name" : "Iowa State University", "count" : 0 }
+            ]
+        },{
+            "name" : "Continent",
+            "icon" : "notification",
+            "children" : [
+                { "name" : "Africa", "count" : 0},
+                { "name" : "Antarctica", "count" : 0 },
+                { "name" : "Asia", "count" : 0 },
+                { "name" : "Europea", "count" : 0 },
+                { "name" : "North America", "count" : 0 },
+                { "name" : "South America", "count" : 0 },
+                { "name" : "Oceania", "count" : 0 }
+            ]
+        }
+ ]
